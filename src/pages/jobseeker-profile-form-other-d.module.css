@@ -1,0 +1,331 @@
+.headerLogoIcon {
+  position: relative;
+  width: 115px;
+  height: 41.67px;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+}
+.topContainer,
+.topHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.topHeader {
+  background-color: var(--primary-contrast);
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-61xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background: #fff;
+}
+.createYourBioData {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+}
+.pleaseFillOut {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 100%;
+  color: var(--color-dimgray);
+  display: inline-block;
+  width: 1440px;
+}
+.heading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 var(--padding-xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.otherDetails {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+  display: inline-block;
+  width: 154px;
+  flex-shrink: 0;
+}
+.topRightLineChild {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-mediumseagreen);
+  height: 2px;
+  flex-shrink: 0;
+}
+.topRightLine {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.formFieldsSection,
+.formHeading,
+.formInputFields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.formFieldsSection,
+.formInputFields {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.formFieldsSection {
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.back,
+.submit {
+  position: relative;
+  font-size: var(--font-size-sm);
+}
+.back {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  text-decoration: underline;
+  line-height: 100%;
+  font-family: var(--font-poppins);
+  color: var(--color-mediumseagreen);
+  text-align: left;
+  display: inline-block;
+  width: 34.07px;
+  flex-shrink: 0;
+}
+.submit {
+  font-family: var(--font-roboto);
+  color: var(--primary-contrast);
+  text-align: center;
+}
+.bottomNextNavBtn,
+.formSubmitButton {
+  height: 36px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formSubmitButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-4xs);
+  background-color: var(--color-mediumseagreen);
+  border-radius: var(--br-21xl);
+  width: auto;
+  min-width: 100px;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.formSubmitButton:hover {
+  background-color: var(--color-seagreen-200);
+}
+.bottomNextNavBtn {
+  width: 366px;
+  flex-direction: row;
+  gap: var(--gap-232xl);
+}
+.formFieldsSectionParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.bodySection,
+.otherDetailsContainer {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.otherDetailsContainer {
+  border-radius: var(--br-xl);
+  background-color: var(--primary-contrast);
+  width: 454px;
+  padding: var(--padding-13xl) var(--padding-25xl) var(--padding-21xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-mediumseagreen);
+}
+.bodySection {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke);
+  padding: var(--padding-3xs) 0 var(--padding-11xl);
+}
+.copyrightInformation {
+  flex: 1;
+  position: relative;
+}
+.footer,
+.footerTexts,
+.jobseekerProfileFormOtherD {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerTexts {
+  flex: 1;
+  flex-direction: row;
+}
+.footer,
+.jobseekerProfileFormOtherD {
+  background-color: var(--primary-contrast);
+  text-align: center;
+  font-family: var(--font-poppins);
+}
+.footer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-xl) var(--padding-61xl);
+  font-size: var(--font-size-xs);
+  color: var(--color-lightslategray);
+}
+.jobseekerProfileFormOtherD {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+}
+
+.howDidYou {
+  position: relative;
+  line-height: 100%;
+  font-weight: 500;
+}
+
+.dropdown,
+.howDidYou {
+  align-self: stretch;
+}
+
+.taizoAppSurveyField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .topHeader {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .formSubmitButton {
+    background-color: var(--color-mediumseagreen);
+  }
+  .formSubmitButton:hover {
+    background-color: var(--color-seagreen-200);
+  }
+  .footer {
+    padding: var(--padding-11xl) var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .topHeader {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .copyrightInformation {
+    text-align: center;
+  }
+  .footer {
+    padding: var(--padding-10xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .createYourBioData {
+    font-size: var(--font-size-base);
+  }
+  .pleaseFillOut {
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-xs);
+    line-height: 18px;
+    text-align: center;
+    align-self: stretch;
+    width: auto;
+  }
+  .formFieldsSection {
+    gap: var(--gap-11xl);
+  }
+  .bottomNextNavBtn,
+  .otherDetailsContainer {
+    align-self: stretch;
+    width: auto;
+    box-sizing: border-box;
+  }
+  .bottomNextNavBtn {
+    gap: var(--gap-181xl);
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .otherDetailsContainer {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    padding-bottom: var(--padding-21xl);
+  }
+  .bodySection {
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    padding: var(--padding-9xl) var(--padding-5xl) var(--padding-9xl)
+      var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 350px) {
+  .bottomNextNavBtn,
+  .pleaseFillOut {
+    align-self: stretch;
+    width: auto;
+  }
+  .bottomNextNavBtn {
+    gap: var(--gap-141xl);
+  }
+  .otherDetailsContainer {
+    gap: var(--gap-21xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .copyrightInformation {
+    font-size: var(--font-size-xs);
+  }
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+}

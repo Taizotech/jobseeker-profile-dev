@@ -1,0 +1,49 @@
+image: node:18.16.0
+
+pipelines:
+  branches:
+    releaseDev:
+      - parallel:
+          - step:
+              name: Build and Test
+              script:
+                - npm install --legacy-peer-deps
+              artifacts:
+                - build/**
+          - step:
+              name: Deploy to Development
+              deployment: Development
+              script:
+                - pipe: atlassian/aws-s3-deploy:1.1.0
+                  variables:
+                    AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                    AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                    AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                    S3_BUCKET: 'devjobseekerprofile'
+                    LOCAL_PATH: 'build'
+
+    releaseProd:
+      - parallel:
+          - step:
+              name: Build and Test
+              script:
+                - npm install --legacy-peer-deps
+              artifacts:
+                - build/**
+          - step:
+              name: Deploy to Production
+              deployment: Production
+              script:
+                - pipe: atlassian/aws-s3-deploy:1.1.0
+                  variables:
+                    AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                    AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                    AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                    S3_BUCKET: 'jobseekerprofile'
+                    LOCAL_PATH: 'build'
+                - pipe: atlassian/aws-cloudfront-invalidate:0.6.0
+                  variables:
+                    AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                    AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                    AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                    DISTRIBUTION_ID: E2HOQBBKLXSPV8

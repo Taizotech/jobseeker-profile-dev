@@ -1,0 +1,153 @@
+.createYourBioData,
+.letsBeginBy {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+  padding: 0px 20px;
+}
+.createYourBioData {
+  font-weight: 600;
+}
+.letsBeginBy {
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+}
+.heading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.biodataImageIcon {
+  position: relative;
+  width: 320px;
+  height: 248px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.createBioData {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--primary-contrast);
+  text-align: left;
+}
+.createBioDataButton {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 20px;
+  background-color: var(--color-mediumseagreen);
+  border-radius: var(--br-9xl);
+  font-family: var(--font-roboto);
+    color: var(--primary-contrast);
+      font-size: var(--font-size-base);
+    text-align: center;
+  width: auto;
+  height: auto;
+  flex-shrink: 0;
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.createBioDataButton:hover {
+  background-color: var(--color-seagreen-300);
+}
+.byClickingThe {
+  flex: 1;
+  position: relative;
+  line-height: 160%;
+}
+.textFrame1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.termsOfService {
+  text-decoration: none;
+  color: inherit;
+  width: 103px;
+}
+.and,
+.privacyPolicy,
+.termsOfService {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.and {
+  color: var(--color-dimgray);
+  width: 29px;
+}
+.privacyPolicy {
+  text-decoration: none;
+  color: inherit;
+  width: 87px;
+}
+.textFrame2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  color: var(--color-cornflowerblue);
+}
+.createYourBiodata,
+.termsPrivacyPolicyContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.termsPrivacyPolicyContent {
+  align-self: stretch;
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray);
+}
+.createYourBiodata {
+  width: 415px;
+  overflow: hidden;
+  padding: var(--padding-41xl) var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-31xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .createBioDataButton:hover {
+    background-color: var(--color-seagreen-300);
+  }
+}
+@media screen and (max-width: 420px) {
+  .createYourBioData {
+    font-size: var(--font-size-lg);
+  }
+  .letsBeginBy {
+    font-size: var(--font-size-sm);
+  }
+  .createBioDataButton:hover {
+    background-color: var(--color-seagreen-100);
+  }
+    .createBioDataButton {
+      cursor: pointer;
+      border: 0;
+      padding: 10px 5px;
+      background-color: var(--color-mediumseagreen);
+      border-radius: var(--br-9xl);
+      font-family: var(--font-roboto);
+      color: var(--primary-contrast);
+      text-align: center;
+      width: 300px;
+      height: auto;     
+    }
+}

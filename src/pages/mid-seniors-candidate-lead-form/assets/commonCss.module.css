@@ -1,0 +1,12 @@
+.formContainer {
+    display: grid;
+    justify-content: stretch;
+    /* background-color: aqua; */
+    width: 100%;
+}
+
+.formContainer .textField {
+    /* width: max-content; */
+    margin: 10px 0px;
+    /* background-color: rgba(234, 234, 234, 0.824); */
+}

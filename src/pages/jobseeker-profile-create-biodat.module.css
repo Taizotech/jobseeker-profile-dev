@@ -1,0 +1,114 @@
+.headerLogoIcon {
+  position: relative;
+  width: 115px;
+  height: 41.67px;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+}
+.topContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bodySection,
+.topHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.topHeader {
+  background-color: var(--primary-contrast);
+  padding: var(--padding-xs) var(--padding-61xl);
+  box-sizing: border-box;
+  justify-content: center;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background: #fff;
+}
+.bodySection {
+  background-color: var(--color-whitesmoke);
+  padding: 1px 0;
+  justify-content: flex-start;
+}
+.copyrightInformation {
+  flex: 1;
+  position: relative;
+}
+.footer,
+.footerTexts,
+.jobseekerProfileCreatebiodat {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerTexts {
+  flex: 1;
+  flex-direction: row;
+}
+.footer,
+.jobseekerProfileCreatebiodat {
+  background-color: var(--primary-contrast);
+}
+.footer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-xl) var(--padding-61xl);
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-lightslategray);
+  font-family: var(--font-poppins);
+}
+.jobseekerProfileCreatebiodat {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+}
+@media screen and (max-width: 1200px) {
+  .footer,
+  .topHeader {
+    box-sizing: border-box;
+  }
+  .topHeader {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+  }
+  .footer {
+    padding: var(--padding-11xl) var(--padding-61xl);
+  }
+}
+@media screen and (max-width: 960px) {
+  .topHeader {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .copyrightInformation {
+    text-align: center;
+  }
+  .footer {
+    padding: var(--padding-10xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .footer {
+    padding: var(--padding-9xl) var(--padding-5xl) var(--padding-9xl)
+      var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 350px) {
+  .copyrightInformation {
+    font-size: var(--font-size-xs);
+  }
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+}

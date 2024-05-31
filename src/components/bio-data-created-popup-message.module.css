@@ -1,0 +1,133 @@
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.loader_wrp{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.biodataCreatedImg1Icon {
+  position: relative;
+  width: 134px;
+  height: 126px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.loremIpsumHas,
+.yourBioDataCreated {
+  align-self: stretch;
+  position: relative;
+}
+.yourBioDataCreated {
+  line-height: 100%;
+  font-weight: 600;
+}
+.loremIpsumHas {
+  font-size: var(--font-size-xs);
+  line-height: 140%;
+  color: rgba(57, 57, 57, 0.7);
+}
+.text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.showMeJobs {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-roboto);
+  color: var(--primary-contrast);
+  text-align: center;
+  text-decoration: none;
+}
+.showMeJobsBtn {
+  cursor: pointer;
+  border: 0;
+  padding: 0px 20px;
+  background-color: var(--color-mediumseagreen);
+  border-radius: var(--br-21xl);
+  width: auto;
+  height: 44px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.showMeJobsBtn:hover {
+  background-color: var(--color-seagreen-200);
+}
+.bioDataCreatedPopupMessage,
+.biodataCreatedImg1Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.biodataCreatedImg1Parent {
+  align-self: stretch;
+  gap: 34px;
+}
+.bioDataCreatedPopupMessage {
+  position: relative;
+  border-radius: 10px;
+  background-color: var(--primary-contrast);
+  width: 535px;
+  overflow: hidden;
+  padding: var(--padding-21xl) var(--padding-21xl) 33px;
+  box-sizing: border-box;
+  opacity: 0;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+.bioDataCreatedPopupMessage.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-left;
+}
+@media screen and (max-width: 1200px) {
+  .showMeJobsBtn {
+    background-color: var(--color-mediumseagreen);
+  }
+  .showMeJobsBtn:hover {
+    background-color: var(--color-seagreen-200);
+  }
+}
+@media screen and (max-width: 420px) {
+  .yourBioDataCreated {
+    font-size: var(--font-size-sm);
+  }
+  .loremIpsumHas {
+    font-size: var(--font-size-xs);
+  }
+  .text {
+    gap: var(--gap-5xs);
+  }
+}
+@media screen and (max-width: 350px) {
+  .yourBioDataCreated {
+    font-size: var(--font-size-sm);
+  }
+  .text {
+    gap: var(--gap-5xs);
+  }
+  .bioDataCreatedPopupMessage {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,483 @@
+.headerLogoIcon {
+  position: relative;
+  width: 115px;
+  height: 41.67px;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+}
+.topContainer,
+.topHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.topHeader {
+  background-color: var(--primary-contrast);
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-61xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background: #fff;
+}
+.createYourBioData {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+}
+.pleaseFillOut {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 100%;
+  color: var(--color-dimgray);
+  display: inline-block;
+  width: 1440px;
+}
+.heading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 var(--padding-xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.basicDetails,
+.frameChild {
+  position: relative;
+  flex-shrink: 0;
+}
+.basicDetails {
+  font-size: var(--font-size-base);
+  line-height: 100%;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-mediumseagreen);
+  text-align: left;
+  display: inline-block;
+  width: 112px;
+}
+.frameChild {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-mediumseagreen);
+  height: 2px;
+}
+.formHeading,
+.formHeadingInner {
+  display: flex;
+  justify-content: flex-start;
+}
+.formHeadingInner {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  align-items: flex-end;
+}
+.formHeading {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.nameInput {
+  border: 0;
+  background-color: transparent;
+}
+.dobInput,
+.nameDobFields,
+.nameInput {
+  align-self: stretch;
+  /* width: 100%; */
+}
+.nameDobFields {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.gender {
+  align-self: stretch;
+  width: auto;
+  font-size: var(--font-size-xs);
+  line-height: 100%;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+}
+.frameItem,
+.gender {
+  position: relative;
+}
+.maleToiletSvgrepoComIcon {
+  position: relative;
+  width: 25.93px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.male {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 100%;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: inline-block;
+  width: 34.07px;
+  flex-shrink: 0;
+}
+.ellipseParent,
+.maleToiletSvgrepoComParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.ellipseParent {
+  width: 90px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.female {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 100%;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: inline-block;
+  width: 52.07px;
+  flex-shrink: 0;
+}
+.ellipseGroup,
+.femaleToiletSvgrepoComParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.ellipseGroup {
+  width: 106px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.preferNotTo {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 100%;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: inline-block;
+  width: 106px;
+  flex-shrink: 0;
+}
+.ellipseContainer,
+.transgenderSvgrepoCom1Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.ellipseContainer {
+  width: 158px;
+  height: 30px;
+  flex-shrink: 0;
+  gap: var(--gap-11xs);
+}
+.genderRadioGroup,
+.genderRow {
+  flex-shrink: 0;
+  align-items: flex-start;
+}
+.genderRow {
+  align-self: stretch;
+  height: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.genderRadioGroup {
+  height: 117px;
+  gap: var(--gap-3xs);
+}
+.formFields1,
+.genderAndCurrentLocationFi,
+.genderRadioGroup,
+.inputFields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.genderAndCurrentLocationFi {
+  align-items: flex-start;
+  gap: 25px;
+}
+.formFields1,
+.inputFields {
+  align-items: center;
+  gap: var(--gap-11xl);
+}
+.back,
+.submit {
+  position: relative;
+  font-size: var(--font-size-sm);
+}
+.back {
+  line-height: 100%;
+  font-family: var(--font-poppins);
+  color: transparent;
+  text-align: left;
+  display: inline-block;
+  width: 34.07px;
+  flex-shrink: 0;
+}
+.submit {
+  font-family: var(--font-roboto);
+  color: var(--primary-contrast);
+  text-align: center;
+}
+.bottomNavBtn,
+.formSubmitButton {
+  height: 36px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+.formSubmitButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-4xs);
+  background-color: var(--color-mediumseagreen);
+  border-radius: var(--br-21xl);
+  width: auto;
+  min-width: 100px;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.formSubmitButton:hover {
+  background-color: var(--color-seagreen-200);
+}
+.bottomNavBtn {
+  width: 366px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-232xl);
+}
+.basicDetailsForm,
+.bodySection,
+.formFields {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.formFields {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-41xl);
+}
+.basicDetailsForm,
+.bodySection {
+  overflow: hidden;
+  align-items: center;
+}
+.basicDetailsForm {
+  border-radius: var(--br-xl);
+  background-color: var(--primary-contrast);
+  width: 454px;
+  padding: var(--padding-13xl) var(--padding-25xl) 35px;
+  box-sizing: border-box;
+}
+.bodySection {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke);
+  padding: var(--padding-9xl) 0 27px;
+}
+.copyrightInformation {
+  flex: 1;
+  position: relative;
+}
+.footer,
+.footerTexts,
+.jobseekerProfileFormBasicD {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerTexts {
+  flex: 1;
+  flex-direction: row;
+}
+.footer,
+.jobseekerProfileFormBasicD {
+  background-color: var(--primary-contrast);
+  text-align: center;
+  font-family: var(--font-poppins);
+}
+.footer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-xl) var(--padding-61xl);
+  font-size: var(--font-size-xs);
+  color: var(--color-lightslategray);
+}
+.jobseekerProfileFormBasicD {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+}
+@media screen and (max-width: 1200px) {
+  .topHeader {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .formSubmitButton {
+    background-color: var(--color-mediumseagreen);
+  }
+  .formSubmitButton:hover {
+    background-color: var(--color-seagreen-200);
+  }
+  .bodySection {
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    padding: var(--padding-11xl) var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .topHeader {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .copyrightInformation {
+    text-align: center;
+  }
+  .footer {
+    padding: var(--padding-10xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .createYourBioData {
+    font-size: var(--font-size-base);
+  }
+  .pleaseFillOut {
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-xs);
+    line-height: 18px;
+    text-align: center;
+    align-self: stretch;
+    width: auto;
+  }
+  .heading {
+    gap: var(--gap-7xs);
+  }
+  .gender {
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-xs);
+    text-align: left;
+  }
+  .genderRow {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+  }
+  .formFields1,
+  .genderAndCurrentLocationFi {
+    gap: var(--gap-11xl);
+  }
+  .formSubmitButton {
+    align-items: center;
+    justify-content: center;
+    padding-left: var(--padding-4xs);
+    box-sizing: border-box;
+  }
+  .bottomNavBtn {
+    align-self: stretch;
+    width: auto;
+    gap: var(--gap-181xl);
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .basicDetailsForm,
+  .formFields {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .basicDetailsForm {
+    align-self: stretch;
+    width: auto;
+    gap: var(--gap-21xl);
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-3xs);
+    padding-bottom: var(--padding-13xl);
+  }
+  .bodySection {
+    padding-top: var(--padding-3xs);
+    padding-bottom: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .footer {
+    padding: var(--padding-9xl) var(--padding-5xl) var(--padding-9xl)
+      var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 350px) {
+  .pleaseFillOut {
+    text-align: center;
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+  }
+  .heading {
+    gap: var(--gap-7xs);
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .genderRadioGroup {
+    gap: var(--gap-3xs);
+  }
+  .bottomNavBtn {
+    gap: var(--gap-141xl);
+  }
+  .basicDetailsForm {
+    gap: var(--gap-21xl);
+    padding-left: var(--padding-6xl);
+    padding-right: 5px;
+    box-sizing: border-box;
+  }
+  .copyrightInformation {
+    font-size: var(--font-size-xs);
+  }
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+}
